@@ -14,7 +14,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <Container>
         <Row>
-          <Col md={6} lg={3} className="text-center text-md-left">
+          <Col sm={6} lg={3} className="text-center text-md-left">
             <h3>SHIPPERS</h3>
             <ul className="list-unstyled">
               <li>
@@ -33,7 +33,7 @@ const Footer = () => {
               </li>
             </ul>
           </Col>
-          <Col md={6} lg={3} className="text-center text-md-left">
+          <Col sm={6} lg={3} className="text-center text-md-left">
             <h3>CARRIERS</h3>
             <ul className="list-unstyled">
               <li>
@@ -50,7 +50,7 @@ const Footer = () => {
               </li>
             </ul>
           </Col>
-          <Col md={6} lg={3} className="text-center text-md-left">
+          <Col sm={6} lg={3} className="text-center text-md-left">
             <h3>COMPANY</h3>
             <ul className="list-unstyled">
               <li>
@@ -64,7 +64,7 @@ const Footer = () => {
               </li>
             </ul>
           </Col>
-          <Col md={6} lg={3} className="text-center text-md-left">
+          <Col sm={6} lg={3} className="text-center text-md-left">
             <h3 className="connect">CONNECT</h3>
             <a href="https://facebook.com">
               <FontAwesomeIcon icon={faFacebook} width="1.5em" />

@@ -16,12 +16,10 @@ a {
   box-sizing: border-box;
 }
 
-.row{
+.row {
   margin-right: 0 !important;
   margin-left: 0 !important;
 }
-
-
 
 /*================================================
 Section Titles
@@ -83,7 +81,6 @@ Slider Design
 =================================================*/
 .carousel-item {
   height: 100vh;
-  /* min-height: 300px; */
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -103,25 +100,17 @@ Slider Design
   z-index: 100 !important;
 }
 
+/*For 1600px Screen*/
 
 @media screen and (max-width: 1600px) {
   .carousel-item {
     height: 800px;
   }
 
-  .carousel-caption h1{
-    margin-left: 75px;
-    margin-top: -10px;
-    margin-bottom: 50px !important;
-    top: 30% !important; 
+  .carousel-caption h1 {
     font-size: 6.7rem !important;
   }
-
-  .carousel-caption button{
-    margin-left: 75px;
-  }
 }
-
 
 /*For 1300px Screen*/
 
@@ -130,59 +119,42 @@ Slider Design
     height: 600px;
   }
 
-  .carousel-caption h1{
-    margin-left: 60px;
-    margin-top: -12px;
-    margin-bottom: 50px !important;
-    top: 30% !important; 
+  .carousel-caption h1 {
     font-size: 5.8rem !important;
   }
-
-  .carousel-caption button{
-    margin-left: 60px;
-  }
 }
-
-
 
 /* For 960px Display Size */
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 970px) {
   .carousel-item {
-    height: 500px;
+    height: 400px;
   }
 
-  .carousel-caption h1{
-    margin-left: 35px;
-    margin-top: -18px;
-    margin-bottom: 35px !important;
-    top: 30% !important; 
-    font-size: 5rem !important;
+  .carousel-caption h1 {
+    font-size: 3rem !important;
   }
 
-  .carousel-caption button{
-    margin-left: 35px;
+  .carousel-caption button {
+    padding: 8px 20px !important;
+    font-size: 12px !important;
   }
 }
-
 
 /*For Mobile Device 720px */
 
 @media screen and (max-width: 720px) {
   .carousel-item {
-    height: 400px;
+    height: 300px;
   }
 
-  .carousel-caption h1{
-    margin-left: 25px;
-    margin-top: -18px;
-    margin-bottom: 10px !important;
-    top: 30% !important; 
-    font-size: 3.5rem !important;
+  .carousel-caption h1 {
+    font-size: 2rem !important;
   }
 
-  .carousel-caption button{
-    margin-left: 25px;
+  .carousel-caption button {
+    padding: 8px 20px !important;
+    font-size: 12px !important;
   }
 }
 
@@ -262,6 +234,21 @@ Home Video Section
 
 .youtube-trailer > div {
   height: 100%;
+}
+
+@media screen and (max-width: 980px) {
+  .overlay-left {
+    display: none;
+  }
+  .overlay-right {
+    display: none;
+  }
+  .overlay-top {
+    display: none;
+  }
+  .overlay-down {
+    display: none;
+  }
 }
 
 /*================================================

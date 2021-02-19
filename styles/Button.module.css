@@ -34,3 +34,41 @@
 .button h4 {
   font-size: 3rem;
 }
+
+/*For 1300 Viewport*/
+@media screen and (max-width: 1300px){
+  .button{
+    width: 250px;
+    height: 100px;
+  }
+  .button h4 {
+    font-size: 2rem;
+  }
+
+}
+
+
+/*For 960 ViewPort*/
+@media screen and (max-width: 960px){
+  .button{
+    width: 250px;
+    height: 100px;
+  }
+  .button h4 {
+    font-size: 2rem;
+  }
+
+}
+
+
+/*For 720 Viewport*/
+@media screen and (max-width: 720px){
+  .button{
+    width: 200px;
+    height: 100px;
+  }
+  .button h4 {
+    font-size: 2rem;
+  }
+
+}

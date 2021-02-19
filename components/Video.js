@@ -16,10 +16,10 @@ const opts = {
 const Video = () => {
   return (
     <Row className={`no-gutters ${styles.container}`}>
-      <Col className={`text-center align-items-center ${styles.text_wrapper}`}>
+      <Col md={6} sm={12} className={`text-center align-items-center ${styles.text_wrapper}`}>
         <h1 className="">How it works</h1>
       </Col>
-      <Col>
+      <Col md={6} sm={12}>
         <div className="movie-trailer-part">
           <div className="overlay-left"></div>
           <div className="overlay-right"></div>

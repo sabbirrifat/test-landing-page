@@ -16,3 +16,10 @@
   color: #fff;
   padding-right: 2rem;
 }
+
+/*For 1300 Viewport*/
+@media screen and (max-width: 1300px) {
+  .footer {
+    font-size: 0.7rem;
+  }
+}
